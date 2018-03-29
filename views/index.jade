@@ -1,5 +1,12 @@
 extends layout
 
 block content  
-  h1= title
-  p Welcome to #{title}
+  div
+    table
+        thead
+            
+        tbody
+            each box in boxes
+                tr
+                    each s in box
+                        td #{s}
