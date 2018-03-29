@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mtthw-s/TTTGame/issues"
   },
-  "homepage": "https://github.com/mtthw-s/TTTGame#readme"
+  "homepage": "https://github.com/mtthw-s/TTTGame#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jade": "^1.11.0"
+  }
 }
